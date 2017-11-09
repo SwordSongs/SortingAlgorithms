@@ -9,7 +9,7 @@ void selectSorting(int a[], int len) {
 		min = a[i];
 		flag = i;
 
-		for (int j = i + 1; j < len; ++j) {
+		for (int j = i + 1; j < len; ++j) {    //寻找后面无序数组中的最小元素
 			if (a[j] < min) {
 				min = a[j];
 				flag = j;
