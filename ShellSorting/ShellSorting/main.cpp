@@ -3,9 +3,8 @@ using namespace std;
 
 void shellSorting(int a[],int len) {
 	int temp;
-	int step;
 	int i, j;
-	for (step = len / 2; step > 0;step /= 2) {
+	for (int step = len / 2; step > 0;step /= 2) {
 		for (i = step; i < len; ++i) {        //找到步长元素
 			temp = a[i];
 			j = i - step;             //初始元素
